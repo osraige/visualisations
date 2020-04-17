@@ -8,7 +8,7 @@ import (
 
 func GoldenValue(t *testing.T, goldenFile string, actual string, update bool) string {
 	t.Helper()
-	goldenPath := "testdata/" + goldenFile + ".golden"
+	goldenPath := "testdata/" + goldenFile + ".svg"
 	f, err := os.Open(goldenPath)
 	defer f.Close()
 	if update {
