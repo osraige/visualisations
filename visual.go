@@ -1,4 +1,4 @@
-package visual
+package visualisations
 
 // this file should only be used for maths-y/svg-y utilities
 // that all visualisations use. every other visualisation should
