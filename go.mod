@@ -4,5 +4,6 @@ go 1.14
 
 require (
 	github.com/ajstarks/svgo v0.0.0-20200320125537-f189e35d30ca
+	github.com/containous/yaegi v0.8.2
 	github.com/kylelemons/godebug v1.1.0
 )
